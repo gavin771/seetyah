@@ -23,11 +23,15 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
+    "start:lambda": "./node_modules/.bin/netlify-lambda serve ./functions",
     "develop": "gatsby develop",
     "format": "prettier --write '**/*.js'",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "fauna:bootstrap": "node ./scripts/bootstrap-fauna-db.js"
   },
   "devDependencies": {
+    "netlify-lambda": "^1.6.3",
+    "npm-run-all": "^4.1.5",
     "prettier": "^1.14.2"
   },
   "repository": {
