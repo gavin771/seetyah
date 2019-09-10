@@ -4,6 +4,8 @@
   "version": "1.0.0",
   "author": "Hunter Chang",
   "dependencies": {
+    "@reach/router": "^1.2.1",
+    "auth0-js": "^9.11.3",
     "faunadb": "^2.8.0",
     "gatsby": "^2.2.9",
     "gatsby-plugin-manifest": "^2.0.24",
